@@ -1,0 +1,11 @@
+1. 	test : find total score
+	Input : No rolls
+	Output : Score 0
+2. 	test : find total score
+	Input : No Strike and No Spares
+	output : Score = sum of all pins down in all frames
+3. 	test : find total score and bonus
+	Input : only 1 spare (nth frame where n > 1) and 0 strike
+	Output : bonus = score of 1st roll in (n-1)th frame
+			 score  = sum of all pins down in all frames + bonus
+4.  test : 

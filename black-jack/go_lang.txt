@@ -1,0 +1,34 @@
+go-lang :
+	- appl programming / server side programming
+	- procedural type
+
+
+$ go get <githhub-path>   // to download the 3rd party library
+
+$ go --help // for command help
+
+$ go install // deplay the compiled files to the GOPATH/bin dir
+
+
+Data Types
+----------
+
+Struct
+======
+type Node struct{
+	data int
+
+}
+
+interface
+---------
+i-table contains all the meta-data of all methods  (like v ptr table in C++)
+
+https://webchat.freenode.net/
+
+objectmentor.com - bowling game kata
+martinfollow - TDD 
+
+BlackJack Russion MIT student story
+
+

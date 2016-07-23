@@ -22,12 +22,18 @@ func TestAreaofRectangle(t *testing.T) {
 
 func TestAreaofComplexShape(t *testing.T) {
 	s := Square{side: 10}
+	s1 := Square{side: 20}
 	r := Rectangle{length: 2, breadth: 3}
 
-	h := Hybrid{s, r}
+	h := Hybrid{nil}
+	
+	h.addShape(r)
+	h.addShape(s)
+	h.addShape(s1)
+
 	result := h.Area()
 
-	if result != 106 {
+	if result != 506 {
 		t.Errorf("Expected area of hybrid to be 106, got %d", result)
 	}
 }
